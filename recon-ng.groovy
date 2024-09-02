@@ -2,7 +2,7 @@
 
 def reconUtil(){
 
-    node(any){
+    node(Dev1){
         stage('Cloning nuclei'){
             sh """
             https://github.com/projectdiscovery/nuclei.git
